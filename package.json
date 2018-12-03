@@ -1,0 +1,23 @@
+{
+  "name": "advancedproject-auth-login",
+  "version": "1.0.0",
+  "description": "auth login node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabelogumede/advancedproject-auth-login.git"
+  },
+  "author": "Sabelo Gumede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabelogumede/advancedproject-auth-login/issues"
+  },
+  "homepage": "https://github.com/sabelogumede/advancedproject-auth-login#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "passport": "^0.4.0"
+  }
+}
