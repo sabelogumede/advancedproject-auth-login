@@ -2,6 +2,8 @@
 const Router = require('express').Router(),
     passport = require('passport');
 
+require('./facebook.setup');
+
 //redirect to facebook login page
 Router.get('/', passport.authenticate('facebook',{
     scope: ['public_profile']
